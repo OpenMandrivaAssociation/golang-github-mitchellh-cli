@@ -1,0 +1,11 @@
+import:
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+  version: b9cf5f96b68d9eaa53d5db5fef235718767f416a
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+  version: 12892e8c234f4fe6f6803f052061de9057903bb2
+package: github.com/mitchellh/cli
+
